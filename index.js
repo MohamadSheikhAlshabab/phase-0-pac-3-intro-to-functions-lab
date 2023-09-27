@@ -19,6 +19,6 @@ function logWhisper(str){
 logWhisper('HELLO');
 
 function sayHiToHeadphonedRoommate(str){
-    return str === str.toLowerCase() ? "I can't hear you!" : str === "Let's have dinner together!" ? "I would love to!" :"YES INDEED!";
+    return str === str.toLowerCase() ? "I can't hear you!" : str === "Let's have dinner together!" ? "I would love to!" : "YES INDEED!";
 }
 sayHiToHeadphonedRoommate('hello');
